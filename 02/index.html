@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>homework 2</title>
 </head>
+
 <body>
-   
+   <form action="">
+      <div>
+         <label for="text">Введіть логін</label>
+         <input type="text" id="text" name="mytext"><br><br>
+      </div>
+      <div>
+         <label for="password">Введіть пароль</label>
+         <input type="password" id="mypass" name="password"><br><br>
+      </div>
+      <div>
+         <label for="lang">Назва курсу</label>
+         <select name="" id="lang">
+            <option selected value="jv">Java</option>
+            <option value="js">JS</option>
+            <option value="htm">HTML</option>
+            <option value="css">CSS</option>
+         </select>
+      </div> <br>
+      <div>
+         <label>Що ще вважаете вивчати?</label><br>
+         <div>
+            <label for="check1">Java</label>
+            <input type="checkbox" id="check1">
+         </div>
+         <div>
+            <label for="check2">JS</label>
+            <input type="checkbox" id="check2">
+         </div>
+         <div>
+            <label for="check3">HTML</label>
+            <input type="checkbox" id="check3">
+         </div>
+         <div>
+            <label for="check4">CSS</label>
+            <input type="checkbox" id="check4">
+         </div>
+         <br>
+      </div>
+      <div>
+         <label for="experience">Досвiд роботи</label>
+         <br>
+         <label for="yes">Так</label>
+         <input type="radio" name="experience" id="yes">
+         <label for="no">Нi</label>
+         <input type="radio" name="experience" id="no">
+
+      </div>
+      <div>
+         <label for="mydata">Надіслати дані</label>
+         <input type="submit" id="mydata" name="submit"><br>
+         <label for="clear_form">Якщо введені дані неправильні, натисніть </label>
+         <input type="reset" id="reset" name="clear_form">
+      </div>
+
+   </form>
+
+   <table border="3" style="width: 75%;">
+      <thead>
+         <tr>
+            <th>Студент</th>
+            <th style="width: 35%;">Статус виконання домашньої роботи</th>
+            <th style="width: 10%;">Курс</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Олександр</td>
+            <td>виконал</td>
+            <td align="center">1</td>
+         </tr>
+         <tr>
+            <td>Олег</td>
+            <td>не виконал</td>
+            <td align="center">2</td>
+         </tr>
+         <tr>
+            <td>Iгор</td>
+            <td>виконал</td>
+            <td align="center">1</td>
+         </tr>
+         <tr>
+            <td>Олена</td>
+            <td>виконала</td>
+            <td align="center">3</td>
+         </tr>
+         <tr>
+            <td>Iнна</td>
+            <td>не виконала</td>
+            <td align="center">2</td>
+         </tr>
+      </tbody>
+   </table>
 </body>
+
 </html>

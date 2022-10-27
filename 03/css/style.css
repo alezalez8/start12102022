@@ -1,0 +1,77 @@
+body {
+   background-color: rgb(153, 233, 182);
+}
+
+/* p{
+   color: #000;
+} */
+.class-name {
+   color: blue;
+}
+*{
+   font-style: italic;
+}
+
+.class-name2 {
+   color: rgb(218, 17, 121);
+}
+
+.class-name3 {
+   color: rgb(3, 87, 39);
+}
+
+.class-namediv {
+   color: rgb(218, 17, 121);
+   font-size: 50px;
+
+}
+
+h4 {
+   color: rgb(152, 5, 5);
+}
+
+.ccc1 {
+   color: rgb(59, 6, 194);
+}
+
+div.ccc1 {
+   font-size: 35px;
+}
+
+.ccc1.big-size-font {
+   color: rgb(42, 12, 237);
+}
+
+.styl {
+   font-style: italic;
+   color: rgb(239, 111, 31);
+}
+#my_id{
+   color: rgb(235, 13, 87);
+   font-size: x-large;
+}
+.myclass_id>strong{
+   font-size: 35px;
+}
+.mobile{
+   display: none
+}
+ul li:first-child{
+   color: blueviolet;
+
+}
+ul li:nth-child(2){
+   color: blueviolet;
+}
+a[href="main.html"]{
+   font-size: 40px;
+}
+h4{
+   text-align: center; 
+}
+div{
+   width: 500px;
+   padding: 10px;
+   margin: 200px auto;   
+}
+ 
